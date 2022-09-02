@@ -10,4 +10,7 @@ You can also manage projects and employees of the company
 ### Week 01
   recreate the landing with visual elements and structure only with HTML.
 
+  ### Week 01
+  recreate the landing with visual elements and structure with HTML and basic CSS.
+
 _By Gonzalo Perrone_
