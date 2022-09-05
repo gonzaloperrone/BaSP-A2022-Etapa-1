@@ -1,10 +1,21 @@
 * {
   color: #373867;
   font-family: 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
 a {
   text-decoration: none;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+h2 {
+  margin-top: 50px
 }
 
 nav,
@@ -16,10 +27,11 @@ footer {
 nav {
   position: fixed;
   width: 100%;
-  height: 106px;
+  height: 108px;
   left: 1px;
   top: 0px;
   border-bottom: 2px solid #373867;
+  z-index: 1;
 }
 
 .icon {
@@ -106,4 +118,91 @@ input[type=search] {
 .aside-contact li {
   align-items: center;
   padding: 10px 0px 10px 0;
+}
+
+main {
+  position: absolute;
+  z-index: 0;
+  left: 23%;
+  top: 15%;
+}
+
+#home div {
+  display: inline-block;
+  width: 49%;
+  float: left;
+}
+
+.home-info {
+  margin-top: 100px;
+}
+
+.home-text1 {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  width: 486px;
+  height: 41px;
+  margin-bottom: 30px;
+}
+
+.home-text2 {
+  background-color: #D9D9D9;
+  padding: 10px;
+  width: 411px;
+  height: 100px;
+  text-align: center;
+  margin: auto;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#home button {
+  padding: 14px 36px;
+  background: #FFFFFF;
+  border: 1px solid #373867;
+  border-radius: 5px;
+  margin-top: 42px;
+  margin-left: 50px;
+  width: 170px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+#home img {
+  width: 507.13px;
+  height: 500px;
+}
+
+section article {
+  display: inline-block;
+  width: 49%;
+  padding: 20px
+}
+
+article img {
+  width: 150px;
+  height: 150px;
+}
+
+article div {
+  display: inline-block;
+  width: 45%;
+}
+
+.article-title {
+  width: 311px;
+  height: 18px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 27px;
+}
+
+.article p {
+  width: 363px;
+height: 84px;
 }
