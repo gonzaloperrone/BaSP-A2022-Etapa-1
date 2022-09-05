@@ -129,6 +129,7 @@ main {
   z-index: 0;
   left: 23%;
   top: 15%;
+  min-height: 100%;
 }
 
 #home div {
@@ -318,5 +319,26 @@ ol i {
 #products-services p {
   width: 410px;
   height: 94px;
-  margin: 50px 0 150px 0
+  margin: 50px 0 250px 0;
+}
+
+footer {
+  position: fixed;
+  width: 1512px;
+  height: 106px;
+  bottom: 0;
+  text-align: center;
+}
+
+.footer-icon {
+  color: #C4C4C4;
+  font-size: 25px;
+  margin-top: 29px;
+  margin-bottom: 18px;
+  padding: 0 10px;
+}
+
+footer p {
+  font-weight: bold;
+  font-size: 14px;
 }
