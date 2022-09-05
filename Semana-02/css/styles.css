@@ -125,7 +125,7 @@ input[type=search] {
 }
 
 main {
-  position: relative;
+  position: absolute;
   z-index: 0;
   left: 23%;
   top: 15%;
@@ -230,8 +230,8 @@ article div {
 }
 
 .form-contact input[type="text"],
-.form-contact input[type="email"]{
-  width:260px;
+.form-contact input[type="email"] {
+  width: 260px;
 }
 
 .form-contact input[type="radio"] {
@@ -249,7 +249,7 @@ textarea {
 }
 
 .form-contact button {
-  margin:20px 0 0 180px;
+  margin: 20px 0 0 180px;
   padding: 10px 24px;
   width: 76px;
   height: 44px;
