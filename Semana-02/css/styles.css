@@ -324,7 +324,7 @@ ol i {
 
 footer {
   position: fixed;
-  width: 1512px;
+  width: 100%;
   height: 106px;
   bottom: 0;
   text-align: center;
