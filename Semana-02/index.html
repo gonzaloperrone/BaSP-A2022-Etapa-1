@@ -194,22 +194,40 @@
     <section id="information">
       <h2>Information</h2>
       <form class="form-contact">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" placeholder="text your name">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="text your email">
         <div>
-          <label>Contact area</label>
-          <input type="radio" id="hr" name="contactArea" value="Human Resources" checked>
-          <label for="hr">Human Resources</label>
-          <input type="radio" id="systems" name="contactArea" value="Systems">
-          <label for="systems">Systems</label>
-          <input type="radio" id="commercialization" name="contactArea" value="Commercialization">
-          <label for="commercialization">Commercialization</label>
+          <div>
+            <label for="name">Name</label>
+          </div>
+          <input type="text" id="name" name="name" placeholder="text your name">
         </div>
         <div>
-          <label for="message">Message</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <div>
+            <label for="email">Email</label>
+          </div>
+          <input type="email" id="email" name="email" placeholder="text your email">
+        </div>
+        <div>
+          <div class="form-title">
+            <label>Contact area</label>
+          </div>
+          <div>
+            <input type="radio" id="hr" name="contactArea" value="Human Resources" checked>
+            <label for="hr">Human Resources</label>
+          </div>
+          <div>
+            <input type="radio" id="systems" name="contactArea" value="Systems">
+            <label for="systems">Systems</label>
+          </div>
+          <div>
+            <input type="radio" id="commercialization" name="contactArea" value="Commercialization">
+            <label for="commercialization">Commercialization</label>
+          </div>
+        </div>
+        <div>
+          <div class="form-title">
+            <label for="message">Message</label>
+          </div>
+          <textarea placeholder="text your message" name="message" id="message" cols="30" rows="10"></textarea>
         </div>
         <button>Send</button>
       </form>
